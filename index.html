@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .myclass {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid red;
+            text-align: center;
+            vertical-align: middle;
+            transition: 3s;
+        }
+        
+        button {
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myclass" id="myid">
+        My first div to change through transition
+    </div>
+    <button onclick="dotransition()">Click ME..</button>
+    <script src="first.js"></script>
+</body>
+
+</html>
